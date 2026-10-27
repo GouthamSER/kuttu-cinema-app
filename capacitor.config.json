@@ -1,0 +1,15 @@
+{
+  "appId": "app.kuttu.cinema",
+  "appName": "Kuttu Cinema",
+  "webDir": "www",
+  "backgroundColor": "#0b0d12",
+  "server": {
+    "url": "https://kuttu-bot.koyeb.app",
+    "allowNavigation": ["kuttu-bot.koyeb.app"],
+    "errorPath": "offline.html",
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

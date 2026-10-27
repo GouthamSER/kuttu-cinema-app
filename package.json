@@ -1,0 +1,19 @@
+{
+  "name": "kuttu-cinema-app",
+  "version": "1.0.0",
+  "description": "Android app for the KuttuBot movie website",
+  "private": true,
+  "scripts": {
+    "icons": "python3 scripts/make_icons.py",
+    "android:add": "cap add android",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2"
+  }
+}
